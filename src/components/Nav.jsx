@@ -11,8 +11,18 @@ function Nav() {
             fontWeight: e.isActive ? 'bold' : '',
         };
       }} to="/">Home</NavLink>
-      <NavLink to="/user">User</NavLink>
-      <NavLink to="/about">About</NavLink>
+    
+      <NavLink style={(e)=>{
+        return {color: e.isActive ? 'green' : '',
+            fontWeight: e.isActive ? 'bold' : '',
+        };
+      }} to="/user">User</NavLink>
+      
+      <NavLink style={(e)=>{
+        return {color: e.isActive ? 'green' : '',
+            fontWeight: e.isActive ? 'bold' : '',
+        };
+      }} to="/about">About</NavLink>
       </nav>
     </div>
   )
