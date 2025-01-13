@@ -1,14 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 
 function Nav() {
   return (
     <div>
       <nav className='mt-10 flex justify-center gap-10'>
-      <Link to="/">Home</Link>
-      <Link to="/user">User</Link>
-      <Link to="/about">About</Link>
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/user">User</NavLink>
+      <NavLink to="/about">About</NavLink>
       </nav>
     </div>
   )
