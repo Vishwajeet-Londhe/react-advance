@@ -6,7 +6,9 @@ function Nav() {
   return (
     <div>
       <nav className='mt-10 flex justify-center gap-10'>
-      <NavLink style={{color: "red"}} to="/">Home</NavLink>
+      <NavLink style={(e)=>{
+        console.log(e);
+      }} to="/">Home</NavLink>
       <NavLink to="/user">User</NavLink>
       <NavLink to="/about">About</NavLink>
       </nav>
