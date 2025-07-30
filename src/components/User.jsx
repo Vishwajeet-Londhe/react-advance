@@ -31,6 +31,22 @@ function User() {
           <Link className='p-3 bg-red-200 text-2xl mb-3 hover:bg-yellow-500 hover:font-bold' to="/user/anushka">Anushka</Link>
           <Link className='p-3 bg-red-200 text-2xl mb-3 hover:bg-green-500 hover:font-bold' to="/user/apurva">Apurva</Link>
           <Link className='p-3 bg-red-200 text-2xl mb-3 hover:bg-violet-500 hover:font-bold' to="/user/tahseen">Tahseen</Link>
+
+          <div className='flex wt-1/2 flex-col mt-10'>
+            <Link className='p-3 bg-red-200 mb-3 hover:bg-red-300 '
+            to="/user/john "
+            >John</Link>
+
+            <Link className='p-3 bg-red-200 mb-3 hover:bg-red-300 '
+            to="/user/ayush"
+            >Ayush</Link>
+
+            <Link className='p-3 bg-red-200 mb-3 hover:bg-red-300 '
+            to="/user/vaibhavi"
+            >vaibhavi</Link>
+
+          </div>
+
         </div>
       </div>      
     </div>      
